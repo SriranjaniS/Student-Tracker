@@ -1,34 +1,60 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Node modules directory
 node_modules/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Log files
+*.log
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+# Dependency directories
+jspm_packages/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Build output for Node.js
+dist/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
+# Build output for Java/Spring Boot
+target/
+*.jar
+*.war
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# IDE-specific files
 .vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Optional npm cache directory
+.npm
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Miscellaneous files
+*.tgz
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Temporary files
+*.tmp
+*.temp
+*.log
